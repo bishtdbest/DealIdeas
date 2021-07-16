@@ -1,0 +1,140 @@
+
+
+@media screen and (max-width: 767px) {
+  .deals-banner-bg{display: none;}
+
+  .deals-banner .deals-content h2,.banner-slider .banner-content h3,.recommended-deals h2{font-size: 26px;}
+  .main-form h2{font-size: 22px;}
+  .Best-Deals-wrapper h2{font-size: 18px;}
+
+  #header { position: relative;}
+  #header .blue-button{ position: absolute; top: 14px; right: 19px;}
+
+  .Deals-icon {
+    overflow: auto;
+    white-space: nowrap;}
+
+.deals-banner .deals-content{padding: 60px 9.5%;}
+.ads-banner{ padding: 56px 9.5%;}
+.recommended-deals{ padding-top: 56px; padding-bottom: 56px;}
+.form-wrapper .form-right{padding-left:0;}
+.form-footer{padding-top:10px;}
+
+.popup-wrapper .form-right > li{width: auto;}
+.popup-overlay .popup-container button{padding: 10px 15px;}
+
+
+.thanks-banner-content{ padding: 20px;}
+.thanks-banner-content h3{ font-size: 20px;}
+.thanks-banner-content .banner-content{padding: 20px 0 0;}
+
+.red-strip h4{font-size: 26px;}
+
+.thanks-banner{background-image: none; background: #ededed; padding: 20px 0 0;}
+.deals-list li .img-wrapper img{ width: 100%;}
+.deals-list li .img-wrapper,.btn-wrapper{ max-width: 100%; padding-right: 0;}
+
+.deals-list li{display: block; float: left; width: 48%; margin: 1%;}
+.deals-list li .img-wrapper{padding-bottom: 20px;}
+.deals-list li .deals-details{ border: 0 none; border-top: solid 1px #d9d8d8; padding: 20px 0;}
+.deals-list li > div{flex: none; justify-content: flex-start; }
+
+.deals-slider {display: block;}
+
+.header-menu {clear: both;}
+
+.header-menu .menu li.dropdown > a:after{ top: 5px;}
+.dropdown .submenu{width: 300px;}
+
+.Credit-ads .mobile-ad{display: block;}
+.Credit-ads .desktop-ad{display: none;}
+
+}
+
+@media screen and (max-width: 640px){
+    .logo,.header-menu,.footer-links,.logo-footer{float: none;}
+    .footer-links{overflow: hidden; margin-bottom: 10px;}
+    .label-wrapper{margin-bottom: 10px;}
+
+.flexslider2 .flex-direction-nav .flex-prev, .flexslider2 .flex-direction-nav .flex-next{    width: 37px;
+    height: 59px;}
+
+.flexslider2 .flex-direction-nav .flex-prev{background-position: 0 -110px;}
+.flexslider2 .flex-direction-nav .flex-next{background-position: -42px -110px;}
+
+.header-menu .menu li a{font-size: 13px; padding: 6px; }
+.sex-toy-slider .banner-item a, .sex-toy-slider .banner-item a img{width: 100%; display: block;}
+.sex-toy-slider .banner-item .buttons-set a{ font-size: 22px; width: 50%; margin: 0; padding: 20px 0;}
+.main-form{ padding: 20px;}
+.main-form [type="button"], .main-form [type="submit"], .main-form .button{font-size: 12px;}
+}
+
+@media screen and (min-width: 1200px){
+.main-banner{
+	  display: -webkit-flex; /* Safari */
+    display: flex;}
+
+.main-banner > div {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;}
+
+.banner-slider{display: flex;}
+.banner-slider{max-width: 38%;}
+.banner-slider .flexslider{ width: 100%;}
+
+}
+@media screen and (min-width: 992px){
+.deals-banner{ display: flex;}
+.deals-banner > div{flex:1;}
+.deals-banner-bg{ max-width: 38%;}
+.form-wrapper .form-left,.form-wrapper .form-right{float: left; width: 50%;}
+.form-wrapper .right-side-tabs{float: right; width: 50%;}
+.form-wrapper .right-side-tabs .form-right{float: none; width: 100%;}
+.form-wrapper .form-left {
+    padding-right: 3.4%;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .container,  #header .container, #footer .container{max-width: 750px !important;}
+  .form-wrapper .form-right{padding-left:0;}
+  .form-footer{padding-top:10px;}
+  .popup-wrapper .form-right > li{width: 48%;}
+#header .logo{margin-right: 30px;}
+.header-menu .menu li{padding-right: 10px;}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .container, #header .container, #footer .container{max-width: 970px !important;}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1365px) {
+  .container, #header .container, #footer .container{max-width: 1180px !important;}
+}
+
+@media screen and (min-width: 1366px) {
+  .container, #header .container, #footer .container{max-width: 1366px !important;}
+}
+
+@media screen and (max-width: 1200px){
+.hidden-form,.slide-down{display: block !important; position: static !important; padding: 0 !important; background:none;}
+
+}
+@media screen and (max-width: 1199px){
+.credit-card-banner .main-list > li{ width: 47.5%; float: left; padding-right: 3.4%; }
+.credit-card-banner .main-list,.credit-card-banner .main-form{width: 100%;}
+}
+
+@media screen and (max-width: 991px){
+.form-wrapper .form-left{margin-bottom: 40px;}
+.credit-card-banner .main-list > li,.credit-card-banner .form-wrapper .form-left{ width: 100%; float: left; padding-right: 0%; }
+.credit-card-banner .main-list,.credit-card-banner .main-form{width: 100%;}
+.credit-card-form{padding: 12px 20px 0;}
+.form-heading{padding: 0 20px 0;}
+.form-heading h2{line-height: 1.2; font-size: 28px;}
+.main-list{margin-top: 0;}
+}
+@media screen and (max-width: 576px){
+.deals-list li{display: block; float: left; width: 100%; margin: 0 0 20px;}
+}
